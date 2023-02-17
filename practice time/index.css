@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d0c8c8;
+    
+
+}
+#output{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.img{
+    width: 110px;
+    border-radius: 50%;
+    margin-bottom: 25px ;
+   
+   
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f112b;
+    width: 330px;
+    height: 340px;
+    border-radius: 12px;
+    flex-direction: column;
+    margin: 9px ; 
+    border: rgb(223, 223, 235) solid 3px;
+    box-shadow: 10px 10px 24px 14px rgba(194, 194, 203, 0.75);
+        -webkit-box-shadow: 10px 10px 24px 14px rgba(194, 194, 203, 0.75);
+        -moz-box-shadow: 10px 10px 24px 14px rgba(194, 194, 203, 0.75);
+    
+
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(203, 233, 233);
+     font-size: 16px; 
+ 
+   
+}
+.id{
+    font-family: cursive;
+    font-size: 17px solid;
+    margin: 0px;
+}
+.names{
+    margin: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
